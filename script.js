@@ -5,7 +5,7 @@ const parseCode = (str) => {
 		lastName: "mi",
 		id: "1"
 	}
-	 if(parseCode){
+	 if(parseCode === obj){
 		 return obj;
 	 }
 	 
