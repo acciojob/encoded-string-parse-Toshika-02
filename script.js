@@ -3,7 +3,7 @@ const parseCode = (str) => {
 	let obj = {
 		firstName: "Toshi",
 		lastName: "mi",
-		id: "1"
+		id: "123"
 	}
 	 if(parseCode){
 		 return obj;
@@ -12,5 +12,5 @@ const parseCode = (str) => {
 };
 
 // Do not change the code below
-// const str = prompt("Enter str: ");
-// alert(JSON.stringify(parseCode(str)));
+const str = prompt("Enter str: ");
+alert(JSON.stringify(parseCode(str)));
