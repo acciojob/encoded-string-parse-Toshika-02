@@ -4,7 +4,12 @@ const parseCode = (str) => {
 	if(data === 3){
 		const [firstName, lastName, id] = data;
 		return {firstName, lastName, id}
+	}else{
+		return null
+		
+		
 	}
+	
 
 };
 
