@@ -1,7 +1,7 @@
 const parseCode = (str) => {
   // your code here
 	const [firstName, lastName, id] = str.split('000')
-	return {firstName, lastName, id}
+	return parseCode{firstName, lastName, id}
 	
 };
 
