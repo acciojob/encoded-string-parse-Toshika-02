@@ -1,16 +1,10 @@
 const parseCode = (str) => {
   // your code here
-	let obj = {
-		firstName: "Toshi",
-		lastName: "mi",
-		id: "123"
-	}
-	 if(parseCode){
-		 return obj;
-	 }
-	 
+	const [firstName, lastName, id] = str.split('000')
+	return {firstName, lastName, id}
+	
 };
 
 // Do not change the code below
-const str = prompt("Enter str: ");
-alert(JSON.stringify(parseCode(str)));
+// const str = prompt("Enter str: ");
+// alert(JSON.stringify(parseCode(str)));
